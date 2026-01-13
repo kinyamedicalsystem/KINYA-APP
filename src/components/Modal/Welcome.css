@@ -1,0 +1,136 @@
+/* Overlay */
+
+.wm-overlay {
+  position: fixed;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(0,0,0,0.6), rgba(0,50,70,0.7));
+  z-index: 999999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Main Glass Box */
+.wm-modal-box {
+  width: min(92%, 900px);
+  min-height: 520px;
+background: linear-gradient(357deg,rgba(255, 255, 255, 0.642) 10%, rgba(3, 245, 245, 0.708) 65%, rgba(126, 216, 228, 0.79) 90%);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  border-radius: 28px;
+  box-shadow: 0 25px 80px rgba(0,0,0,0.4);
+  padding: 40px 50px;
+  color: #0b3c49;
+  animation: wmZoom 0.5s ease;
+  position: relative;
+}
+.fa-xmark{
+    background: none;
+    border: none;
+    color:black ;
+}
+/* Animation */
+@keyframes wmZoom {
+  from {
+    transform: scale(0.85);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/* Close */
+.wm-close {
+  position: absolute;
+  top: 22px;
+  right: 22px;
+}
+
+/* Titles */
+.wm-title {
+  text-align: center;
+  font-size: 3rem;
+  letter-spacing: 3px;
+  margin-bottom: 10px;
+}
+
+.wm-subtitle {
+  text-align: center;
+  font-size: 1.7rem;
+  margin-top: 10px;
+}
+
+/* Logo */
+.wm-logo {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+}
+
+/* Description */
+.wm-desc {
+  font-size: 1.25rem;
+  text-align: center;
+  max-width: 650px;
+  margin: auto;
+  margin-bottom: 25px;
+}
+
+/* Body */
+.wm-modal-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Bottom Area */
+.kinya {
+  width: 100%;
+  max-width: 700px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  gap: 30px;
+}
+
+/* List */
+.wm-list {
+  list-style: none;
+  padding: 0;
+  font-size: 1.3rem;
+}
+
+/* Info */
+.info h6 {
+  font-size: 1.1rem;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .wm-modal-box {
+    padding: 25px;
+    min-height: auto;
+  }
+
+  .wm-title {
+    font-size: 2.2rem;
+  }
+
+  .wm-subtitle {
+    font-size: 1.3rem;
+  }
+
+  .wm-desc {
+    font-size: 1.05rem;
+  }
+
+  .kinya {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}

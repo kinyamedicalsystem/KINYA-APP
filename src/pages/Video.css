@@ -224,8 +224,8 @@ body.dark .video-page .featured-video {
 
 .video-placeholder img {
   width: 100%;
-  height: 50%;
-  margin-top: 15%;
+  height: 70%;
+  margin-top: 5%;
   object-fit: cover;
   transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
@@ -515,7 +515,7 @@ body.dark .video-page .video-card {
 
 .video-thumbnail {
   position: relative;
-  height: 200px;
+  height: 300px;
   overflow: hidden;
   cursor: pointer;
 }

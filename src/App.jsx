@@ -1,8 +1,9 @@
 // src/App.jsx
 import React from 'react';
-import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
+import WelcomeModal from './components/Modal/Welcome';
 import Home from './pages/Home';
 import ProductDetail from './pages/Product/ProductDetail';
 import Certification from './pages/Certification';
@@ -13,9 +14,10 @@ import Contact from './pages/Contact';
 import './App.css';
 
 function App() {
-  return (
-    <Router>
+   return(
+ <Router>
       <div className="App">
+        <WelcomeModal/>
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -27,10 +29,13 @@ function App() {
           <Route path="/contact" element={<Contact />} />
         </Routes>
         <Footer />
+    
       </div>
     </Router>
 
   );
+ 
+ 
 }
 
 export default App;

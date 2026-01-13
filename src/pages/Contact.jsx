@@ -187,7 +187,7 @@ function Contact() {
               <ContactCard 
                 icon="fas fa-envelope"
                 title="Email Us"
-                details={["sales@kinya.in", "support@kinya.in", "Quick response guaranteed"]}
+                details={["sales@kinya.in", "kinyamedicalsystems@gmail.com", "Quick response guaranteed"]}
                 onClick={sendEmail}
                 actionIcon="fas fa-paper-plane"
                 actionText="Send Email"

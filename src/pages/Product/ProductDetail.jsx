@@ -38,8 +38,8 @@ const salesContact = {
 const productDetails = {
   'posterior': {
     title: 'POSTERIOR VITRECTOMY SYSTEM',
-    image: './images/POSTERIOR.png',
-    brochure: './BROCHURES/VHOPE.pdf',
+    image: '/images/POSTERIOR.png',
+    brochure: '/BROCHURES/VHOPE.pdf',
     description: 'Advanced ophthalmic surgical system designed for precision vitreoretinal procedures with cutting-edge technology.',
     features: [
       'Advanced Cutting Technology ,Supports DORC / MIDLAB / DUAL PNEUMATIC Cutters',
@@ -61,24 +61,24 @@ const productDetails = {
       { name: 'GUI Display', value: '15 inches Touch Screen' }
     ],
     accessories: [
-       { image: './POST/cassette POSTERIER.png', name: 'Cassette' },
-       { image: './POST/aktive light pipe.png', name: 'Aktive Light Pipe' },
-      { image: './POST/diathermy eraser.png', name: 'Diathermy Eraser' },
-      { image: './ANT/diaTHERMY PROBE.png', name: 'Diathermy Probe' },
-      { image: './ANT/diathermy forcep.png', name: 'Diathermy  Forcep' },
-      { image: './ANT/ia tube.png', name: 'IA Tube ' },
-      { image: './ANT/MITLAB ADAPTER.png', name: 'Mitlab Adapter' },
-       { image: './ANT/phaco frag.png', name: 'Phaco Frag ' },
-        { image: './ANT/phaco tray.png', name: 'Phaco Tray' },
-      { image: './ANT/VGPC.png', name: 'VGPC' },
-       { image: './ANT/CUTTER.png', name: 'Vitrectomy Cutter-DORC' },
-        { image: './ANT/VITRECTOMY CUTTER-MIDLAB.png', name: 'Vitrectomy Cutter-Mitlab' },
+       { image: '/POST/cassette POSTERIER.png', name: 'Cassette' },
+       { image: '/POST/aktive light pipe.png', name: 'Aktive Light Pipe' },
+      { image: '/POST/diathermy eraser.png', name: 'Diathermy Eraser' },
+      { image: '/ANT/diaTHERMY PROBE.png', name: 'Diathermy Probe' },
+      { image: '/ANT/diathermy forcep.png', name: 'Diathermy  Forcep' },
+      { image: '/ANT/ia tube.png', name: 'IA Tube ' },
+      { image: '/ANT/MITLAB ADAPTER.png', name: 'Mitlab Adapter' },
+       { image: '/ANT/phaco frag.png', name: 'Phaco Frag ' },
+        { image: '/ANT/phaco tray.png', name: 'Phaco Tray' },
+      { image: '/ANT/VGPC.png', name: 'VGPC' },
+       { image: '/ANT/CUTTER.png', name: 'Vitrectomy Cutter-DORC' },
+        { image: '/ANT/VITRECTOMY CUTTER-MIDLAB.png', name: 'Vitrectomy Cutter-Mitlab' },
     ]
   },
   'phaco': {
     title: 'PHACO VITRECTOMY SYSTEM',
-    image: './images/PHACO1.png',
-    brochure: './BROCHURES/PHACO.pdf',
+    image: '/images/PHACO1.png',
+    brochure: '/BROCHURES/PHACO.pdf',
     description: 'Advanced ophthalmic surgical system designed for precision vitreoretinal procedures with cutting-edge technology.',
     features: [
       'Advanced Fluidics System',
@@ -97,22 +97,22 @@ const productDetails = {
      
     ],
     accessories: [
-      { image: './PHACO/cassette-phaco.png', name: 'Cassette' },
-      { image: './PHACO/diathermy eraser.png', name: 'Diathermy Eraser' },
-      { image: './PHACO/diaTHERMY PROBE.png', name: 'Diathermy Probe' },
-      { image: './PHACO/diathermy forcep.png', name: 'Diathermy  Forcep' },
-      { image: './PHACO/ia tube.png', name: 'IA Tube ' },
-      { image: './PHACO/MITLAB ADAPTER.png', name: 'Mitlab Adapter' },
-       { image: './PHACO/phaco frag.png', name: 'Phaco Tip ' },
-        { image: './PHACO/phaco tray.png', name: 'Phaco Tray' },
-      { image: './PHACO/VGPC.png', name: 'VGPC' },
-       { image: './PHACO/CUTTER.png', name: 'Vitrectomy Cutter-DORC' },
-        { image: './PHACO/VITRECTOMY CUTTER-MIDLAB.png', name: 'Vitrectomy Cutter-Mitlab' },]
+      { image: '/PHACO/cassette-phaco.png', name: 'Cassette' },
+      { image: '/PHACO/diathermy eraser.png', name: 'Diathermy Eraser' },
+      { image: '/PHACO/diaTHERMY PROBE.png', name: 'Diathermy Probe' },
+      { image: '/PHACO/diathermy forcep.png', name: 'Diathermy  Forcep' },
+      { image: '/PHACO/ia tube.png', name: 'IA Tube ' },
+      { image: '/PHACO/MITLAB ADAPTER.png', name: 'Mitlab Adapter' },
+       { image: '/PHACO/phaco frag.png', name: 'Phaco Tip ' },
+        { image: '/PHACO/phaco tray.png', name: 'Phaco Tray' },
+      { image: '/PHACO/VGPC.png', name: 'VGPC' },
+       { image: '/PHACO/CUTTER.png', name: 'Vitrectomy Cutter-DORC' },
+        { image: '/PHACO/VITRECTOMY CUTTER-MIDLAB.png', name: 'Vitrectomy Cutter-Mitlab' },]
   },
   'ant-vit': {
     title: 'ANT_VIT VITRECTOMY SYSTEM',
-    image: './images/ANTERIOR.png',
-    brochure: './BROCHURES/ANTERIOR.pdf',
+    image: '/images/ANTERIOR.png',
+    brochure: '/BROCHURES/ANTERIOR.pdf',
     description: 'Advanced ophthalmic surgical system designed for precision vitreoretinal procedures with cutting-edge technology.',
     features: [
       'Advanced cutting technology for precise vitreous removal',
@@ -129,24 +129,24 @@ const productDetails = {
 
     ],
     accessories: [
-       { image: './ANT/cassette-anterior.png', name: 'Cassette' },
-      { image: './ANT/diathermy eraser.png', name: 'Diathermy Eraser' },
-      { image: './ANT/diaTHERMY PROBE.png', name: 'Diathermy Probe' },
-      { image: './ANT/diathermy forcep.png', name: 'Diathermy  Forcep' },
-      { image: './ANT/ia tube.png', name: 'IA Tube ' },
-      { image: './ANT/MITLAB ADAPTER.png', name: 'Mitlab Adapter' },
-       { image: './ANT/phaco frag.png', name: 'Phaco Frag ' },
-        { image: './ANT/phaco tray.png', name: 'Phaco Tray' },
-      { image: './ANT/VGPC.png', name: 'VGPC' },
-       { image: './ANT/CUTTER.png', name: 'Vitrectomy Cutter-DORC' },
-        { image: './ANT/VITRECTOMY CUTTER-MIDLAB.png', name: 'Vitrectomy Cutter-Mitlab' },
+       { image: '/ANT/cassette-anterior.png', name: 'Cassette' },
+      { image: '/ANT/diathermy eraser.png', name: 'Diathermy Eraser' },
+      { image: '/ANT/diaTHERMY PROBE.png', name: 'Diathermy Probe' },
+      { image: '/ANT/diathermy forcep.png', name: 'Diathermy  Forcep' },
+      { image: '/ANT/ia tube.png', name: 'IA Tube ' },
+      { image: '/ANT/MITLAB ADAPTER.png', name: 'Mitlab Adapter' },
+       { image: '/ANT/phaco frag.png', name: 'Phaco Frag ' },
+        { image: '/ANT/phaco tray.png', name: 'Phaco Tray' },
+      { image: '/ANT/VGPC.png', name: 'VGPC' },
+       { image: '/ANT/CUTTER.png', name: 'Vitrectomy Cutter-DORC' },
+        { image: '/ANT/VITRECTOMY CUTTER-MIDLAB.png', name: 'Vitrectomy Cutter-Mitlab' },
     ]
     
   },
   'air-injection': {
     title: 'AIR_INJECTION VITRECTOMY SYSTEM',
-    image: './images/AIR-INJ.png',
-    brochure: './BROCHURES/SILICON.pdf',
+    image: '/images/AIR-INJ.png',
+    brochure: '/BROCHURES/SILICON.pdf',
     description: 'Advanced ophthalmic surgical system designed for precision vitreoretinal procedures with cutting-edge technology.',
     features: [
       'Advanced cutting technology for precise vitreous removal',
@@ -161,14 +161,14 @@ const productDetails = {
       { name: 'Footprint', value: 'Compact mobile cart' }
     ],
     accessories: [
-      { image: './AIR INJ/silicon oil injection extraction kit.png', name: 'Silicon Oil Injection Extraction Kit' },
+      { image: '/AIR INJ/silicon oil injection extraction kit.png', name: 'Silicon Oil Injection Extraction Kit' },
     
     ]
   },
   'light-source': {
     title: 'LIGHT SOURCE VITRECTOMY SYSTEM',
-    image: './images/LIGHTSOURCE.png',
-    brochure: './BROCHURES/LEDLIGHT.pdf',
+    image: '/images/LIGHTSOURCE.png',
+    brochure: '/BROCHURES/LEDLIGHT.pdf',
     description: 'Advanced ophthalmic surgical system designed for precision vitreoretinal procedures with cutting-edge technology.',
     features: [
       'Advanced cutting technology for precise vitreous removal',
@@ -183,17 +183,17 @@ const productDetails = {
       { name: 'Footprint', value: 'Compact mobile cart' }
     ],
     accessories: [
-      { image: './LIGHTSOURCE/ALCON.png', name: 'Alcon Light Pipe' },
-      { image: './POST/aktive light pipe.png', name: 'Aktive Light Pipe' },
+      { image: '/LIGHTSOURCE/ALCON.png', name: 'Alcon Light Pipe' },
+      { image: '/POST/aktive light pipe.png', name: 'Aktive Light Pipe' },
      
     ]
   },
   'abp-scan': {
     title: 'DIAGNOSTIC A/B/P SCAN SYSTEM',
     images: [
-      './images/A_SCAN.png',
-      './images/B_SCAN.png',
-      './images/P_SCAN.png'
+      '/images/A_SCAN.png',
+      '/images/B_SCAN.png',
+      '/images/P_SCAN.png'
     ],
     brochure: './BROCHURES/ABPSCAN.pdf',
     description: 'Comprehensive diagnostic ultrasound system for ophthalmic applications with A-scan, B-scan, and Pachymetry capabilities.',
@@ -216,16 +216,16 @@ const productDetails = {
       { name: 'Dimensions', value: '350mm × 280mm × 150mm' }
     ],
     accessories: [
-      { image: './ABP/ASCAN.png', name: 'A-Scan Biometry OA12-Probe' },
-      { image: './ABP/BSCAN.png', name: 'B-Scan Imaging OB12-Probe' },
-      { image: './ABP/PACH.png', name: 'Pachymetry OP20-Probe' },
-      { image: './ABP/case.png', name: 'Protective Carry Case' },
+      { image: '/ABP/ASCAN.png', name: 'A-Scan Biometry OA12-Probe' },
+      { image: '/ABP/BSCAN.png', name: 'B-Scan Imaging OB12-Probe' },
+      { image: '/ABP/PACH.png', name: 'Pachymetry OP20-Probe' },
+      { image: '/ABP/case.png', name: 'Protective Carry Case' },
     ]
   },
   'autoclave': {
     title: 'AUTOCLAVE STERILIZER',
-    image: './images/AUTOCLAVE.png',
-    brochure: './BROCHURES/AUTOCLAVE1.pdf',
+    image: '/images/AUTOCLAVE.png',
+    brochure: '/BROCHURES/AUTOCLAVE1.pdf',
     description: 'Advanced ophthalmic surgical system designed for precision vitreoretinal procedures with cutting-edge technology.',
     features: [
       'Advanced cutting technology for precise vitreous removal',
@@ -240,17 +240,17 @@ const productDetails = {
       { name: 'Footprint', value: 'Compact mobile cart' }
     ],
     accessories: [
-      { image: './AUTOCLAVE/AUTOCLAVE HELIX-PCD TEST KIT.png', name: 'Autoclave HELIX-PCD Test Kit' },
-      { image: './AUTOCLAVE/AUTOCLAVE INDICATOR STRIP.png', name: 'Autoclave Indicator Strip' },
-      { image: './AUTOCLAVE/AUTOCLAVE INDICATOR TAPE.png', name: 'Autoclave Indicator Tape' },
-      { image: './AUTOCLAVE/AUTOCLAVE POUCH.png', name: 'Pouch' },
+      { image: '/AUTOCLAVE/AUTOCLAVE HELIX-PCD TEST KIT.png', name: 'Autoclave HELIX-PCD Test Kit' },
+      { image: '/AUTOCLAVE/AUTOCLAVE INDICATOR STRIP.png', name: 'Autoclave Indicator Strip' },
+      { image: '/AUTOCLAVE/AUTOCLAVE INDICATOR TAPE.png', name: 'Autoclave Indicator Tape' },
+      { image: '/AUTOCLAVE/AUTOCLAVE POUCH.png', name: 'Pouch' },
 
     ]
   },
   'plasma': {
     title: 'PLASMA STERILIZER',
-    image: './images/PLASMA.png',
-    brochure: './BROCHURES/PLASMA.pdf',
+    image: '/images/PLASMA.png',
+    brochure: '/BROCHURES/PLASMA.pdf',
     description: 'Advanced ophthalmic surgical system designed for precision vitreoretinal procedures with cutting-edge technology.',
     features: [
       'Advanced cutting technology for precise vitreous removal',
@@ -265,17 +265,17 @@ const productDetails = {
       { name: 'Footprint', value: 'Compact mobile cart' }
     ],
     accessories: [
-      { image: './PLASMA/PLASMA BIOLOGICAL INDICATOR.png', name: 'Biological Indicator' },
-      { image: './PLASMA/PLASMA HELIX TEST KIT.png', name: 'Helix Test Kit' },
-      { image: './PLASMA/PLASMA INDICATOR STRIP CD 40.jpg', name: 'Indicator Strip CD 40' },
-      { image: './PLASMA/PLASMA INDICATOR TAPE.png', name: 'Indicator Tape' },
-      { image: './PLASMA/TIVEK ROLL.png', name: 'Tivek Roll' }
+      { image: '/PLASMA/PLASMA BIOLOGICAL INDICATOR.png', name: 'Biological Indicator' },
+      { image: '/PLASMA/PLASMA HELIX TEST KIT.png', name: 'Helix Test Kit' },
+      { image: '/PLASMA/PLASMA INDICATOR STRIP CD 40.jpg', name: 'Indicator Strip CD 40' },
+      { image: '/PLASMA/PLASMA INDICATOR TAPE.png', name: 'Indicator Tape' },
+      { image: '/PLASMA/TIVEK ROLL.png', name: 'Tivek Roll' }
     ]
   },
   'eto': {
     title: 'ETO STERILIZER',
-    image: './images/ETO.png',
-    brochure: './BROCHURES/ETO.pdf',
+    image: '/images/ETO.png',
+    brochure: '/BROCHURES/ETO.pdf',
     description: 'Advanced ophthalmic surgical system designed for precision vitreoretinal procedures with cutting-edge technology.',
     features: [
       'Advanced cutting technology for precise vitreous removal',
@@ -290,10 +290,10 @@ const productDetails = {
       { name: 'Footprint', value: 'Compact mobile cart' }
     ],
     accessories: [
-      { image: './ETO/ETO BIOLOGICAL INDICATOR.png', name: 'Biological Indicator' },
-      { image: './ETO/ETO HELIX-PCD TEST KIT.png', name: 'HELIX-PCD Test Kit ' },
-      { image: './ETO/ETO INDICATOR DOT.png', name: 'Indicator Dot' },
-      { image: './ETO/ETO POUCH.png', name: 'Pouch' },
+      { image: '/ETO/ETO BIOLOGICAL INDICATOR.png', name: 'Biological Indicator' },
+      { image: '/ETO/ETO HELIX-PCD TEST KIT.png', name: 'HELIX-PCD Test Kit ' },
+      { image: '/ETO/ETO INDICATOR DOT.png', name: 'Indicator Dot' },
+      { image: '/ETO/ETO POUCH.png', name: 'Pouch' },
     ]
   },
 };

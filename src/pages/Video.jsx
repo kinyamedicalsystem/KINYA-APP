@@ -6,6 +6,7 @@ import V2 from '/THUMB/HOPE.mp4';
 import V3 from '/THUMB/TESTO.mp4';
 
 
+
 function Video() {
   const [currentTheme, setCurrentTheme] = useState('light');
   const [playingVideo, setPlayingVideo] = useState(null);
@@ -70,18 +71,28 @@ function Video() {
       description: 'This surgical video demonstrates the management of an aphakic retinal detachment using Pars Plana Vitrectomy (PPV) combined with Endolaser (EL) and Silicone Oil Injection (SOI). ',
       thumbnail: './THUMB/THUMB4.png',
       duration: '9:32',
-      videoUrl: 'https://www.youtube.com/embed/xpXXRgzLYxc?si=AH6LTCA04kFEiTx6', // Google Drive video
+      videoUrl: 'https://www.youtube.com/embed/xpXXRgzLYxc?si=AH6LTCA04kFEiTx6', // Youtube video
       youtubeId: 'AH6LTCA04kFEiTx6',
       type: 'drive'
     },
     {
       id: 7,
-      title: 'Managing Hard catract using HOPE system',
+      title: 'Managing Hard Catract using HOPE combined Posterior Vitrectomy System',
       description: 'To Managing Hard Cataract cases using the HOPE (High Output Phacoemulsification Efficiency) system. Hard cataracts can pose significant surgical challenges, and the HOPE system offers a reliable and efficient solution for safe lens fragmentation and removal. ',
       thumbnail: './THUMB/THUMB5.png',
       duration: '1:51',
       videoUrl: V2, // Google Drive video
       youtubeId: '',
+      type: 'local'
+    },
+     {
+      id: 8,
+      title: 'Managing Hard Catract using PHACO EMULSIFICATION System',
+      description: 'Management of Hard Cataract using Smart-pulse mode in HOPE Phaco Emulsification system by Dr.Manjunath , Manjunatha Nethralaya Eye Hospital , Bangalore ',
+      thumbnail: './THUMB/HARD.png',
+      duration: '2:36',
+      videoUrl: 'https://www.youtube.com/embed/B50CshVZmMU?si=hMGnYhMcq7L3GmF9', // Youtube video
+      youtubeId: 'hMGnYhMcq7L3GmF9',
       type: 'local'
     }
   ];
@@ -90,7 +101,7 @@ function Video() {
     id: 0,
     title: 'Introduction to Kinya Medical',
     description: 'Learn about our company mission, values, and the range of products and services that we offer.',
-    thumbnail: './THUMB/LOGO.png',
+    thumbnail: './THUMB/LO.png',
     duration: '10:35',
     videoUrl: 'https://youtube.com/shorts/CmIO4lfsKds?si=7k6o0uHab3ngzhkI', // Local video
     youtubeId: 'CmIO4lfsKds',

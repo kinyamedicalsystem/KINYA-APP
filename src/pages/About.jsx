@@ -24,16 +24,9 @@ function About() {
    
     
     },
-      {
-    id: 3,
-    name: 'MarudhuPandian',
-    role: 'Lead - Production and Service',
-    image: './ABOUT/MARUDHU.png',
-    bio: '',
-  
-  },
+      
     {
-      id: 4,
+      id: 3,
     name: 'Surendhar Kasinathan',
     role: 'Lead - Product Development and Application',
     image: ' ./ABOUT/SS.png',
@@ -41,12 +34,21 @@ function About() {
     
     },
     {
-      id: 5,
+      id: 4,
     name: 'Mohammed Syed Jaffer',
     role: 'Lead - Research,Development and Innovation',
     image: './ABOUT/J.png',
     bio: '',
     },
+    
+    {
+    id: 5,
+    name: 'MarudhuPandian',
+    role: 'Lead - Production and Service',
+    image: './ABOUT/MARUDHU.png',
+    bio: '',
+  
+  },
    
     
   ];
