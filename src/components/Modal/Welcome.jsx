@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import "./Welcome.css";
-import logo from "../kinya.png"; // adjust path if needed
+import logo from "../kinya.png";
 
 function WelcomeModal() {
   const [show, setShow] = useState(false);
@@ -8,7 +8,7 @@ function WelcomeModal() {
   useEffect(() => {
     const visited = localStorage.getItem("visited");
     if (!visited) {
-      setShow(true);
+      setTimeout(() => setShow(true), 500); // smooth delay
     }
   }, []);
 
@@ -17,55 +17,51 @@ function WelcomeModal() {
     setShow(false);
   };
 
- if (!show) return null;
+  if (!show) return null;
 
-return (
-  <div className="wm-overlay">
-    <div className="wm-modal-box">
+  return (
+    <div className="wm-overlay">
+      <div className="wm-modal-box">
 
-      <button
-        type="button"
-        class="fa-solid fa-xmark fa-2xl wm-close"
-        onClick={closeModal}
-      ></button>
+        <button
+          className="wm-close fa-solid fa-xmark"
+          onClick={closeModal}
+        ></button>
 
-      <h1 className="wm-title">Welcome!</h1>
+        <h1 className="wm-title">Welcome</h1>
 
-      <div className="wm-modal-body">
+        <div className="wm-modal-body">
 
-        <img src={logo} alt="Kinya Logo" className="wm-logo" />
+          <img src={logo} alt="Kinya Logo" className="wm-logo" />
 
-        <h2 className="wm-subtitle">
-          Kinya Medical Systems & Solutions
-        </h2>
+          <h2 className="wm-subtitle">
+            Kinya Medical Systems & Solutions
+          </h2>
 
-        <p className="wm-desc">
-          Delivering trusted medical systems, innovative healthcare solutions,
-          and reliable support for better patient care.
-        </p>
+          <p className="wm-desc">
+            Delivering trusted medical systems, innovative healthcare solutions,
+            and reliable support for better patient care.
+          </p>
 
-        <div className="kinya">
+          <div className="kinya">
+            <ul className="wm-list">
+              <li><span>K</span> - Key</li>
+              <li><span>I</span> - Innovation</li>
+              <li><span>N</span> -  Network</li>
+              <li><span>Y</span> - Your</li>
+              <li><span>A</span> - Access</li>
+            </ul>
 
-          <ul className="wm-list">
-            <li><strong>K</strong> – Key</li>
-            <li><strong>I</strong> – Innovation</li>
-            <li><strong>N</strong> – In</li>
-            <li><strong>Y</strong> – Your</li>
-            <li><strong>A</strong> – Access</li>
-          </ul>
-
-          <div className="info">
-            <h6><b>Contact :</b> +91 9789041308</h6>
-            <h6><b>Email Us:</b> sales@kinya.in</h6>
+            <div className="info">
+              <p>📞 +91 9789041308</p>
+              <p>📧 sales@kinya.in</p>
+            </div>
           </div>
 
         </div>
-
       </div>
     </div>
-  </div>
-);
-
+  );
 }
 
 export default WelcomeModal;
